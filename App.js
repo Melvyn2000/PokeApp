@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import HelloWorldApp from './src/ComponentFunction';
 
 export default function App() {
   return (
@@ -9,6 +10,8 @@ export default function App() {
     </View>
   );
 }
+
+//export default HelloWorldApp;
 
 const styles = StyleSheet.create({
   container: {
