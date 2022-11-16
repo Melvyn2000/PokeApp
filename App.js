@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import HelloWorldFunction from './src/ComponentFunction';
 import HelloWorldClass from './src/ComponentClass';
 import CoreApp from './src/CoreComponent';
+import FirstComponent from './src/FirstComponent';
 
 // export default function App() {
 //   return (
@@ -15,7 +16,9 @@ import CoreApp from './src/CoreComponent';
 
 //export default HelloWorldFunction;
 //export default HelloWorldClass;
-export default CoreApp;
+//export default CoreApp;
+// ...
+export default FirstComponent;
 
 const styles = StyleSheet.create({
   container: {
