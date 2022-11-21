@@ -4,6 +4,8 @@ import HelloWorldFunction from './src/ComponentFunction';
 import HelloWorldClass from './src/ComponentClass';
 import CoreApp from './src/CoreComponent';
 import FirstComponent from './src/FirstComponent';
+import { CafeProps, CatApp } from './src/Props';
+import CafeState from './src/State';
 
 // export default function App() {
 //   return (
@@ -18,7 +20,7 @@ import FirstComponent from './src/FirstComponent';
 //export default HelloWorldClass;
 //export default CoreApp;
 // ...
-export default FirstComponent;
+export default CafeState;
 
 const styles = StyleSheet.create({
   container: {
