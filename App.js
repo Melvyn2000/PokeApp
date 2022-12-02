@@ -1,12 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { SectionList, StyleSheet, Text, View } from 'react-native';
 import HelloWorldFunction from './src/ComponentFunction';
 import HelloWorldClass from './src/ComponentClass';
 import CoreApp from './src/CoreComponent';
 import FirstComponent from './src/FirstComponent';
 import { CafeProps, CatApp } from './src/Props';
 import CafeState from './src/State';
+import PizzaTranslator from './src/TextInput';
+import AppScrolling from './src/ScrollView';
+import {FlatlistBasics, SectionlistBasics} from './src/ListView';
 
+// *---* Basic Function *---*
 // export default function App() {
 //   return (
 //     <View style={styles.container}>
@@ -16,11 +20,18 @@ import CafeState from './src/State';
 //   );
 // }
 
+export default function App() {
+  return (
+    <SectionlistBasics />
+  );
+}
+
+
 //export default HelloWorldFunction;
 //export default HelloWorldClass;
 //export default CoreApp;
 // ...
-export default CafeState;
+// export default App;
 
 const styles = StyleSheet.create({
   container: {
